@@ -36,14 +36,19 @@ body {
 }
 
 .header {
-    margin: 15px;
+    width: 100%;
+    height: 100px;
+    background-color: #6495ED;
 }
 
 .header__btn-cart {
-    width: 80px;
-    height: 30px;
-    font-size: 15px; 
+    margin: 30px 100px 0 0;
+    float: right;
+    width: 120px;
+    height: 43px;
+    font-size: 17px;
     border-radius: 5px;
+    background-color: #E6E6FA;
 }
 
 .container {
@@ -77,12 +82,14 @@ body {
 }
 
 .product-buy-btn {
-    width: 60px;
-    height: 20px;
+    width: 100%;
+    height: 35px;
     font-size: 15px;
     position: relative;
     top: 10px;
-    left: 80px;
+    left: 0;
     border-radius: 5px;
+    font-weight: bolder;
+    background-color: #E6E6FA;
 }
 
