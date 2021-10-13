@@ -29,6 +29,6 @@ const renderProduct = (obj) => {
 const renderPage = list => {
     const productsList = list.map(item => renderProduct(item));
     console.log(productsList);
-    document.querySelector('.main__products').innerHTML = productsList.join(' ');
+    document.querySelector('.main__products').innerHTML = productsList.join('');
 };
 renderPage(products);
