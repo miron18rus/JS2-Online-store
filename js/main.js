@@ -74,14 +74,14 @@ class Cart {
 
     }
 
-    total() {
+    render() {
 
     }
 
  }
 
- class CartGoods {
-    total() {
+ class ItemCartGoods {
+    render() {
 
     }
  }
