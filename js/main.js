@@ -61,4 +61,29 @@ class ProductItem {
     }
 }
 
+class Cart {
+    addCartGoods() {
+
+    }
+
+    removeCartGoods() {
+
+    }
+
+    changeCartGoods() {
+
+    }
+
+    total() {
+
+    }
+
+ }
+
+ class CartGoods {
+    total() {
+
+    }
+ }
+
 let list = new ProductList();
