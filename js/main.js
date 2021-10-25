@@ -80,7 +80,7 @@ class Cart {
 
  }
 
- class ItemCartGoods {
+ class ItemCart{
     render() {
 
     }
